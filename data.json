@@ -1,0 +1,1567 @@
+{
+  "app": "GuitarStudio",
+  "version": 1,
+  "exportedAt": "2026-10-01T17:59:10.054Z",
+  "students": [
+    {
+      "id": "1",
+      "name": "Giuseppe Penna",
+      "level": "Intermedio",
+      "phone": "351 5098782",
+      "prefDay": "Sabato",
+      "prefTime": "16:00",
+      "credit": 36
+    },
+    {
+      "id": "2",
+      "name": "Valeria Goduti",
+      "level": "Intermedio",
+      "phone": "391 376 2348",
+      "prefDay": "Lunedì",
+      "prefTime": "17:00",
+      "credit": 3
+    },
+    {
+      "id": "s_1790716436533",
+      "name": "Raffaele Penna",
+      "level": "Intermedio",
+      "phone": "329 566 1950",
+      "prefDay": "Sabato",
+      "prefTime": "17:00",
+      "credit": 36
+    },
+    {
+      "id": "s_1790716689919",
+      "name": "Pier",
+      "level": "Intermedio",
+      "phone": "350 505 8595",
+      "prefDay": "Sabato",
+      "prefTime": "15:00",
+      "credit": 36
+    },
+    {
+      "id": "s_5473cfa8-1543-4859-bf68-66478cd593ef",
+      "name": "Gabriel Maiellaro",
+      "level": "Principiante",
+      "phone": "324 084 5518",
+      "prefDay": "Venerdì",
+      "prefTime": "18:00",
+      "credit": 3
+    },
+    {
+      "id": "s_019c0bac-4d33-40b2-b28b-c0c78ed02a9f",
+      "name": "Pasquale Ianigro",
+      "level": "Principiante",
+      "phone": "351 648 4078",
+      "prefDay": "Lunedì",
+      "prefTime": "18:00",
+      "credit": 3
+    },
+    {
+      "id": "s_70acf287-9833-4dc3-ad40-21b485cd2f29",
+      "name": "Emanuele",
+      "level": "Principiante",
+      "phone": "333 430 0485",
+      "prefDay": "Mercoledì",
+      "prefTime": "15:00",
+      "credit": 4
+    },
+    {
+      "id": "s_51cb68cc-e58a-49a5-b0c4-d269db574e7c",
+      "name": "Gianluca Ferro",
+      "level": "Intermedio",
+      "phone": "328 735 7015",
+      "prefDay": "Giovedì",
+      "prefTime": "17:00",
+      "credit": 4
+    },
+    {
+      "id": "s_dcc7b306-ced3-4130-9fe6-b36caffebbc8",
+      "name": "Alberto",
+      "level": "Intermedio",
+      "phone": "347 076 8047",
+      "prefDay": "Giovedì",
+      "prefTime": "18:30",
+      "credit": 4
+    },
+    {
+      "id": "s_8ce59023-c3db-4d4a-b934-a79576183516",
+      "name": "Vincenzo",
+      "level": "Avanzato",
+      "phone": "328 973 7951",
+      "prefDay": "Venerdì",
+      "prefTime": "16:00",
+      "credit": 4
+    },
+    {
+      "id": "s_0f5a3164-db24-4b68-85a4-945226b0c886",
+      "name": "Ugo Santangelo",
+      "level": "Avanzato",
+      "phone": "349 832 2032",
+      "prefDay": "Venerdì",
+      "prefTime": "19:00",
+      "credit": 4
+    },
+    {
+      "id": "s_d91087c7-e607-47ba-a80a-d01dbd60adf9",
+      "name": "Gabriele Pinto",
+      "level": "Intermedio",
+      "phone": "379 220 5034",
+      "prefDay": "Venerdì",
+      "prefTime": "16:00",
+      "credit": 3
+    },
+    {
+      "id": "s_fea921a1-e64f-4ace-b4eb-529e92495c4d",
+      "name": "Lara Meles",
+      "level": "Principiante",
+      "phone": "329 323 4009",
+      "prefDay": "Giovedì",
+      "prefTime": "16:00",
+      "credit": 4
+    },
+    {
+      "id": "s_938aa237-f8ec-412f-9906-f7df51574158",
+      "name": "Chiara Azzaretti",
+      "level": "Principiante",
+      "phone": "340 768 5972",
+      "prefDay": "Martedì",
+      "prefTime": "17:00",
+      "credit": 4
+    },
+    {
+      "id": "s_e06ccaeb-dd23-43b1-9039-621e61a03b5e",
+      "name": "Sarah",
+      "level": "Principiante",
+      "phone": "347 335 7896",
+      "prefDay": "Martedì",
+      "prefTime": "16:00",
+      "credit": 1
+    },
+    {
+      "id": "s_f096e977-f8ce-4492-82d6-69262ddebc30",
+      "name": "Giulia Villanova",
+      "level": "Principiante",
+      "phone": "328 454 9245",
+      "prefDay": "Martedì",
+      "prefTime": "18:00",
+      "credit": 1
+    }
+  ],
+  "lessons": [
+    {
+      "id": "l_0.h55nkcosyfb",
+      "studentId": "1",
+      "date": "2026-09-05",
+      "time": "16:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.y4yifw6waj",
+      "studentId": "1",
+      "date": "2026-09-12",
+      "time": "16:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.7cb4n2330zv",
+      "studentId": "1",
+      "date": "2026-09-19",
+      "time": "16:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.ki26p7x6nui",
+      "studentId": "1",
+      "date": "2026-09-26",
+      "time": "16:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.s1jdqsqhxdh",
+      "studentId": "1",
+      "date": "2026-10-03",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.ff1vbp99h1",
+      "studentId": "1",
+      "date": "2026-10-10",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.im982oc4o8m",
+      "studentId": "1",
+      "date": "2026-10-17",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.5vfualusjlb",
+      "studentId": "1",
+      "date": "2026-10-24",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.vwdhuu18ao",
+      "studentId": "1",
+      "date": "2026-10-31",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.uu5uahjboan",
+      "studentId": "1",
+      "date": "2026-11-07",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.b9u3k6mi4l",
+      "studentId": "1",
+      "date": "2026-11-14",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.5ku0wg1z88v",
+      "studentId": "1",
+      "date": "2026-11-21",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.nhnwa6jqhbc",
+      "studentId": "1",
+      "date": "2026-11-28",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.b1pyr49xzy4",
+      "studentId": "1",
+      "date": "2026-12-05",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.8gimqqkyicb",
+      "studentId": "1",
+      "date": "2026-12-12",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.yp8kv9eege",
+      "studentId": "1",
+      "date": "2026-12-19",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.jz821ue5ii",
+      "studentId": "1",
+      "date": "2026-12-26",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.8i75q3eqp7q",
+      "studentId": "1",
+      "date": "2027-01-02",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.i788x1kmk9",
+      "studentId": "1",
+      "date": "2027-01-09",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.jjiv20pe85d",
+      "studentId": "1",
+      "date": "2027-01-16",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.ai6xeli3hws",
+      "studentId": "1",
+      "date": "2027-01-23",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.85tqji3uqav",
+      "studentId": "1",
+      "date": "2027-01-30",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.0fzmp2pnicj",
+      "studentId": "1",
+      "date": "2027-02-06",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.l0kxqmqbsci",
+      "studentId": "1",
+      "date": "2027-02-13",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.ovdacpjuf4m",
+      "studentId": "1",
+      "date": "2027-02-20",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.hijgw6ub1z",
+      "studentId": "1",
+      "date": "2027-02-27",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.ynohqz2cef",
+      "studentId": "1",
+      "date": "2027-03-06",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.fm5q8fs2qjs",
+      "studentId": "1",
+      "date": "2027-03-13",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.k2z5gnobhhg",
+      "studentId": "1",
+      "date": "2027-03-20",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.6cl2i4inlqe",
+      "studentId": "1",
+      "date": "2027-03-27",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.a59r9s2ieci",
+      "studentId": "1",
+      "date": "2027-04-03",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.8ixwsv7ilc8",
+      "studentId": "1",
+      "date": "2027-04-10",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.6f0o2vno99h",
+      "studentId": "1",
+      "date": "2027-04-17",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.mdix17jnrk",
+      "studentId": "1",
+      "date": "2027-04-24",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.wl8bc6avua",
+      "studentId": "1",
+      "date": "2027-05-01",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.5ved7uj9v87",
+      "studentId": "1",
+      "date": "2027-05-08",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.afyielqevgl",
+      "studentId": "1",
+      "date": "2027-05-15",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.636de1q9smx",
+      "studentId": "1",
+      "date": "2027-05-22",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.3ijm7fr4wg",
+      "studentId": "1",
+      "date": "2027-05-29",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.38wxu12u0sq",
+      "studentId": "1",
+      "date": "2027-06-05",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.7uln8ej3ift",
+      "studentId": "s_1790716436533",
+      "date": "2026-09-05",
+      "time": "17:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.fyg6v6dv6i7",
+      "studentId": "s_1790716436533",
+      "date": "2026-09-12",
+      "time": "17:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.h5m6od7fwol",
+      "studentId": "s_1790716436533",
+      "date": "2026-09-19",
+      "time": "17:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.4umoxq2xn9",
+      "studentId": "s_1790716436533",
+      "date": "2026-09-26",
+      "time": "17:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.ve3k15fgbwr",
+      "studentId": "s_1790716436533",
+      "date": "2026-10-03",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.lu9z2m0spai",
+      "studentId": "s_1790716436533",
+      "date": "2026-10-10",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.wjqoc1h2zy",
+      "studentId": "s_1790716436533",
+      "date": "2026-10-17",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.1vqqajb7s29",
+      "studentId": "s_1790716436533",
+      "date": "2026-10-24",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.jhzdt76nfxk",
+      "studentId": "s_1790716436533",
+      "date": "2026-10-31",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.cizlsdabq6s",
+      "studentId": "s_1790716436533",
+      "date": "2026-11-07",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.9cif1s3rhp",
+      "studentId": "s_1790716436533",
+      "date": "2026-11-14",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.z9euafaibao",
+      "studentId": "s_1790716436533",
+      "date": "2026-11-21",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.we3mj5g1cqk",
+      "studentId": "s_1790716436533",
+      "date": "2026-11-28",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.tphdzvmakbp",
+      "studentId": "s_1790716436533",
+      "date": "2026-12-05",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.826cq2heew",
+      "studentId": "s_1790716436533",
+      "date": "2026-12-12",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.w5uwwjxrtv",
+      "studentId": "s_1790716436533",
+      "date": "2026-12-19",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.z7jqzaqmgbl",
+      "studentId": "s_1790716436533",
+      "date": "2026-12-26",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.x2lcu2pmnn",
+      "studentId": "s_1790716436533",
+      "date": "2027-01-02",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.pzeuixs5l2m",
+      "studentId": "s_1790716436533",
+      "date": "2027-01-09",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.qhtj3ujmpsg",
+      "studentId": "s_1790716436533",
+      "date": "2027-01-16",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.fux6m3t3feu",
+      "studentId": "s_1790716436533",
+      "date": "2027-01-23",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.1s0ffe0bh0s",
+      "studentId": "s_1790716436533",
+      "date": "2027-01-30",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.7ha1lz77q3r",
+      "studentId": "s_1790716436533",
+      "date": "2027-02-06",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.tw3tfffbm6",
+      "studentId": "s_1790716436533",
+      "date": "2027-02-13",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.lptit6pnxcn",
+      "studentId": "s_1790716436533",
+      "date": "2027-02-20",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.hk4fke2splp",
+      "studentId": "s_1790716436533",
+      "date": "2027-02-27",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.vnx5agmjpi",
+      "studentId": "s_1790716436533",
+      "date": "2027-03-06",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.rvumjmq65j",
+      "studentId": "s_1790716436533",
+      "date": "2027-03-13",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.63xuydlqel3",
+      "studentId": "s_1790716436533",
+      "date": "2027-03-20",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.c42f64mpgy6",
+      "studentId": "s_1790716436533",
+      "date": "2027-03-27",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.le3z2dpapc",
+      "studentId": "s_1790716436533",
+      "date": "2027-04-03",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.nksy14m11n",
+      "studentId": "s_1790716436533",
+      "date": "2027-04-10",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.g18zfmf47ep",
+      "studentId": "s_1790716436533",
+      "date": "2027-04-17",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.cjaybr2auyd",
+      "studentId": "s_1790716436533",
+      "date": "2027-04-24",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.4vk1er6tpj4",
+      "studentId": "s_1790716436533",
+      "date": "2027-05-01",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.4fkowk28i52",
+      "studentId": "s_1790716436533",
+      "date": "2027-05-08",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.0ofwtxscumv",
+      "studentId": "s_1790716436533",
+      "date": "2027-05-15",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.n51ghd3hzho",
+      "studentId": "s_1790716436533",
+      "date": "2027-05-22",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.56lo8bmzjoa",
+      "studentId": "s_1790716436533",
+      "date": "2027-05-29",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.imj0dtltwv",
+      "studentId": "s_1790716436533",
+      "date": "2027-06-05",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.nlm8c1k7kxc",
+      "studentId": "s_1790716689919",
+      "date": "2026-09-05",
+      "time": "17:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.sluf8p9v36j",
+      "studentId": "s_1790716689919",
+      "date": "2026-09-12",
+      "time": "17:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.9orfyr85rwj",
+      "studentId": "s_1790716689919",
+      "date": "2026-09-19",
+      "time": "17:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.j7lcn5o3otc",
+      "studentId": "s_1790716689919",
+      "date": "2026-09-26",
+      "time": "17:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_0.d2wdggyk7v5",
+      "studentId": "s_1790716689919",
+      "date": "2026-10-03",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.i0dv81bt2w",
+      "studentId": "s_1790716689919",
+      "date": "2026-10-10",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.hd5cxugmhj6",
+      "studentId": "s_1790716689919",
+      "date": "2026-10-17",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.t5n0eptgmx",
+      "studentId": "s_1790716689919",
+      "date": "2026-10-24",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.5rl29rmpnc7",
+      "studentId": "s_1790716689919",
+      "date": "2026-10-31",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.i1lhfzj1xuk",
+      "studentId": "s_1790716689919",
+      "date": "2026-11-07",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.5ojtsphfk53",
+      "studentId": "s_1790716689919",
+      "date": "2026-11-14",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.6870m09ack",
+      "studentId": "s_1790716689919",
+      "date": "2026-11-21",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.0gd93wq4dij",
+      "studentId": "s_1790716689919",
+      "date": "2026-11-28",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.cdhip13ukou",
+      "studentId": "s_1790716689919",
+      "date": "2026-12-05",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.89hb97q2rn6",
+      "studentId": "s_1790716689919",
+      "date": "2026-12-12",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.o5uumogvw3r",
+      "studentId": "s_1790716689919",
+      "date": "2026-12-19",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.uozzka19cba",
+      "studentId": "s_1790716689919",
+      "date": "2026-12-26",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.q3ujyy017zi",
+      "studentId": "s_1790716689919",
+      "date": "2027-01-02",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.klbr8gyei6g",
+      "studentId": "s_1790716689919",
+      "date": "2027-01-09",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.sj8smqacm1h",
+      "studentId": "s_1790716689919",
+      "date": "2027-01-16",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.z7hqe6gvxn",
+      "studentId": "s_1790716689919",
+      "date": "2027-01-23",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.rodo2heopij",
+      "studentId": "s_1790716689919",
+      "date": "2027-01-30",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.lfi9f3ist5",
+      "studentId": "s_1790716689919",
+      "date": "2027-02-06",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.v19vmohrsgi",
+      "studentId": "s_1790716689919",
+      "date": "2027-02-13",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.kgiyq0nxuto",
+      "studentId": "s_1790716689919",
+      "date": "2027-02-20",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.2brc3va06ou",
+      "studentId": "s_1790716689919",
+      "date": "2027-02-27",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.59glkhyq4zp",
+      "studentId": "s_1790716689919",
+      "date": "2027-03-06",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.gbns9ksmfbb",
+      "studentId": "s_1790716689919",
+      "date": "2027-03-13",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.xxov61f4m",
+      "studentId": "s_1790716689919",
+      "date": "2027-03-20",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.bic7g4gxkml",
+      "studentId": "s_1790716689919",
+      "date": "2027-03-27",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.28qvrw2o99z",
+      "studentId": "s_1790716689919",
+      "date": "2027-04-03",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.rbpllwu7vv9",
+      "studentId": "s_1790716689919",
+      "date": "2027-04-10",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.f5wbxm65svs",
+      "studentId": "s_1790716689919",
+      "date": "2027-04-17",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.6hbaq8crc66",
+      "studentId": "s_1790716689919",
+      "date": "2027-04-24",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.pgi4t9vn0s",
+      "studentId": "s_1790716689919",
+      "date": "2027-05-01",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.yqv3uln2frd",
+      "studentId": "s_1790716689919",
+      "date": "2027-05-08",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.n87i84a2hc",
+      "studentId": "s_1790716689919",
+      "date": "2027-05-15",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.b7dmtkv7isc",
+      "studentId": "s_1790716689919",
+      "date": "2027-05-22",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.l1ia5r5djze",
+      "studentId": "s_1790716689919",
+      "date": "2027-05-29",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_0.aqiic360wp7",
+      "studentId": "s_1790716689919",
+      "date": "2027-06-05",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_1da8eb8c-7b33-4523-b1b4-cb342f6411d5",
+      "studentId": "2",
+      "date": "2026-09-29",
+      "time": "15:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true
+    },
+    {
+      "id": "l_5454d694-72fb-4c98-815d-2e0febcf3f7f",
+      "studentId": "2",
+      "date": "2026-10-05",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_07f99ced-6305-440a-b4ef-4b3b7116fa19",
+      "studentId": "2",
+      "date": "2026-10-12",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_94f9cf7d-a9f7-441a-8c1a-8d172372de7f",
+      "studentId": "2",
+      "date": "2026-10-19",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_d4803346-5ad1-4dba-9298-0a0edfb19c96",
+      "studentId": "s_5473cfa8-1543-4859-bf68-66478cd593ef",
+      "date": "2026-10-02",
+      "time": "18:00",
+      "status": "Completata",
+      "payment": "Da Saldare",
+      "creditUsed": true
+    },
+    {
+      "id": "l_7fc8c9b1-7e6a-4606-aa75-ca98a61540bc",
+      "studentId": "s_5473cfa8-1543-4859-bf68-66478cd593ef",
+      "date": "2026-10-09",
+      "time": "18:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_d58dc53c-c30d-4ef0-9290-f5efc3309195",
+      "studentId": "s_5473cfa8-1543-4859-bf68-66478cd593ef",
+      "date": "2026-10-16",
+      "time": "18:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_80ea16d2-d1ad-4b55-9606-63c7497dfd12",
+      "studentId": "s_5473cfa8-1543-4859-bf68-66478cd593ef",
+      "date": "2026-10-23",
+      "time": "18:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_07e353ef-8704-4269-841b-e2fec588792c",
+      "studentId": "s_019c0bac-4d33-40b2-b28b-c0c78ed02a9f",
+      "date": "2026-09-28",
+      "time": "18:00",
+      "status": "Completata",
+      "payment": "Da Saldare",
+      "creditUsed": true
+    },
+    {
+      "id": "l_db8e106d-06c7-4082-837b-7b102cb9de04",
+      "studentId": "s_019c0bac-4d33-40b2-b28b-c0c78ed02a9f",
+      "date": "2026-10-05",
+      "time": "18:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_1e1dc3a5-1262-4754-aadf-987b7fc3af3a",
+      "studentId": "s_019c0bac-4d33-40b2-b28b-c0c78ed02a9f",
+      "date": "2026-10-12",
+      "time": "18:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_ec817200-8304-45da-bc93-916c9b95000d",
+      "studentId": "s_019c0bac-4d33-40b2-b28b-c0c78ed02a9f",
+      "date": "2026-10-19",
+      "time": "18:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_02fa85a1-32ac-4677-b32b-fc1bdb46d1bf",
+      "studentId": "s_70acf287-9833-4dc3-ad40-21b485cd2f29",
+      "date": "2026-10-07",
+      "time": "15:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_1f190156-2662-47e8-9cd8-ca216c1952cd",
+      "studentId": "s_70acf287-9833-4dc3-ad40-21b485cd2f29",
+      "date": "2026-10-14",
+      "time": "15:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_8633eae1-8fb4-4c83-9bdc-bb7a2df2b703",
+      "studentId": "s_70acf287-9833-4dc3-ad40-21b485cd2f29",
+      "date": "2026-10-21",
+      "time": "15:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_d75e201b-2e6f-4b4f-9f3d-b47e1d56b802",
+      "studentId": "s_70acf287-9833-4dc3-ad40-21b485cd2f29",
+      "date": "2026-10-28",
+      "time": "15:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_90ff2974-2b12-4035-bd25-135f85aaa2c8",
+      "studentId": "s_51cb68cc-e58a-49a5-b0c4-d269db574e7c",
+      "date": "2026-10-08",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_42d2644d-8727-4cb8-b05e-605d6f51f05c",
+      "studentId": "s_51cb68cc-e58a-49a5-b0c4-d269db574e7c",
+      "date": "2026-10-15",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_8b211ff8-19ac-45e8-afc6-fa892783ce84",
+      "studentId": "s_51cb68cc-e58a-49a5-b0c4-d269db574e7c",
+      "date": "2026-10-22",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_1df42e96-2adf-4543-983d-1d18110f112b",
+      "studentId": "s_51cb68cc-e58a-49a5-b0c4-d269db574e7c",
+      "date": "2026-10-29",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_2a3db5b3-8148-4fc0-8999-c3545e92385a",
+      "studentId": "s_dcc7b306-ced3-4130-9fe6-b36caffebbc8",
+      "date": "2026-10-08",
+      "time": "18:30",
+      "status": "Programmata",
+      "payment": "Da Saldare",
+      "price": 20
+    },
+    {
+      "id": "l_803a48af-7ed5-4e5f-a12d-8c796d74eaf6",
+      "studentId": "s_dcc7b306-ced3-4130-9fe6-b36caffebbc8",
+      "date": "2026-10-15",
+      "time": "18:30",
+      "status": "Programmata",
+      "payment": "Da Saldare",
+      "price": 20
+    },
+    {
+      "id": "l_7752cf28-309e-44f4-b05c-8dcaef6a39c6",
+      "studentId": "s_dcc7b306-ced3-4130-9fe6-b36caffebbc8",
+      "date": "2026-10-22",
+      "time": "18:30",
+      "status": "Programmata",
+      "payment": "Da Saldare",
+      "price": 20
+    },
+    {
+      "id": "l_7051f2d0-437a-488f-a47d-e5975270041a",
+      "studentId": "s_dcc7b306-ced3-4130-9fe6-b36caffebbc8",
+      "date": "2026-10-29",
+      "time": "18:30",
+      "status": "Programmata",
+      "payment": "Da Saldare",
+      "price": 20
+    },
+    {
+      "id": "l_6af271b1-341d-434b-afd9-e0c03dc5d17a",
+      "studentId": "s_8ce59023-c3db-4d4a-b934-a79576183516",
+      "date": "2026-10-09",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_a55fee50-0b72-4572-8c74-20c32761d12f",
+      "studentId": "s_8ce59023-c3db-4d4a-b934-a79576183516",
+      "date": "2026-10-16",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_57f6e6cc-7458-4a46-9eb7-6563c63d3c98",
+      "studentId": "s_8ce59023-c3db-4d4a-b934-a79576183516",
+      "date": "2026-10-23",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_bc9fe1ee-03e4-4b93-9563-f967aca38231",
+      "studentId": "s_8ce59023-c3db-4d4a-b934-a79576183516",
+      "date": "2026-10-30",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_74c8dfc5-1402-4e7f-be8b-9103670749b1",
+      "studentId": "s_0f5a3164-db24-4b68-85a4-945226b0c886",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_be57f023-781b-4c23-9e95-56c18ed8d33c",
+      "studentId": "s_0f5a3164-db24-4b68-85a4-945226b0c886",
+      "date": "2026-10-16",
+      "time": "19:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_21337264-b55a-46fd-b4c9-78457f02fe8f",
+      "studentId": "s_0f5a3164-db24-4b68-85a4-945226b0c886",
+      "date": "2026-10-23",
+      "time": "19:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_aedb200c-de92-401d-ba06-d40facda3db8",
+      "studentId": "s_0f5a3164-db24-4b68-85a4-945226b0c886",
+      "date": "2026-10-30",
+      "time": "19:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_54449348-5346-4a9a-91ec-fe0b89af3e7a",
+      "studentId": "s_d91087c7-e607-47ba-a80a-d01dbd60adf9",
+      "date": "2026-10-02",
+      "time": "17:00",
+      "status": "Completata",
+      "payment": "Da Saldare",
+      "creditUsed": true
+    },
+    {
+      "id": "l_ba055e3f-b6de-46db-ad90-0a6e6c68da60",
+      "studentId": "s_d91087c7-e607-47ba-a80a-d01dbd60adf9",
+      "date": "2026-10-09",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_a3be60e1-1bf0-4ba6-b953-3aa5de5de685",
+      "studentId": "s_d91087c7-e607-47ba-a80a-d01dbd60adf9",
+      "date": "2026-10-16",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_f7c84f5d-02e1-4bab-9398-3ddae17f6baf",
+      "studentId": "s_d91087c7-e607-47ba-a80a-d01dbd60adf9",
+      "date": "2026-10-23",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_bce16b3b-fe55-435f-a192-dd2c82c9283f",
+      "studentId": "s_fea921a1-e64f-4ace-b4eb-529e92495c4d",
+      "date": "2026-10-08",
+      "time": "16:00",
+      "status": "Da recuperare",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_2c88caa4-0727-46f2-aff2-cc21a1b259da",
+      "studentId": "s_fea921a1-e64f-4ace-b4eb-529e92495c4d",
+      "date": "2026-10-15",
+      "time": "16:00",
+      "status": "Da recuperare",
+      "payment": "Pagata"
+    },
+    {
+      "id": "l_30e7e707-f00b-4e1c-823c-def3f5b35c80",
+      "studentId": "s_fea921a1-e64f-4ace-b4eb-529e92495c4d",
+      "date": "2026-10-22",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_be570fa9-7f61-4248-93a6-cebf9024106f",
+      "studentId": "s_fea921a1-e64f-4ace-b4eb-529e92495c4d",
+      "date": "2026-10-29",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Da Saldare"
+    },
+    {
+      "id": "l_84ecb71f-7b1d-4674-afbb-4e66d43198d0",
+      "studentId": "s_938aa237-f8ec-412f-9906-f7df51574158",
+      "date": "2026-10-06",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare",
+      "price": 15
+    },
+    {
+      "id": "l_37a6eb31-8100-4b2e-9179-a0c38ab5525c",
+      "studentId": "s_938aa237-f8ec-412f-9906-f7df51574158",
+      "date": "2026-10-13",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare",
+      "price": 15
+    },
+    {
+      "id": "l_cca91514-baa5-41e3-a5b2-c3d7e71438fa",
+      "studentId": "s_938aa237-f8ec-412f-9906-f7df51574158",
+      "date": "2026-10-20",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare",
+      "price": 15
+    },
+    {
+      "id": "l_caefe386-dcf1-4ce8-8532-65cd65436a5b",
+      "studentId": "s_938aa237-f8ec-412f-9906-f7df51574158",
+      "date": "2026-10-27",
+      "time": "17:00",
+      "status": "Programmata",
+      "payment": "Da Saldare",
+      "price": 15
+    },
+    {
+      "id": "l_ce349ec4-1e68-4ddb-b86a-36aa1f3ef6b8",
+      "studentId": "s_e06ccaeb-dd23-43b1-9039-621e61a03b5e",
+      "date": "2026-09-15",
+      "time": "16:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true,
+      "price": 17
+    },
+    {
+      "id": "l_f858b46c-71aa-471e-a2b6-3221b0dd8422",
+      "studentId": "s_e06ccaeb-dd23-43b1-9039-621e61a03b5e",
+      "date": "2026-09-22",
+      "time": "16:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true,
+      "price": 17
+    },
+    {
+      "id": "l_024e8433-848d-4fad-bd27-26c318da4d42",
+      "studentId": "s_e06ccaeb-dd23-43b1-9039-621e61a03b5e",
+      "date": "2026-09-29",
+      "time": "16:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "creditUsed": true,
+      "price": 17
+    },
+    {
+      "id": "l_4853bf06-7bfb-4744-ba84-df96f3eccce1",
+      "studentId": "s_e06ccaeb-dd23-43b1-9039-621e61a03b5e",
+      "date": "2026-10-06",
+      "time": "16:00",
+      "status": "Programmata",
+      "payment": "Pagata",
+      "price": 17
+    },
+    {
+      "id": "l_3f410974-7371-4c66-a134-eed0f5794822",
+      "studentId": "s_f096e977-f8ce-4492-82d6-69262ddebc30",
+      "date": "2026-09-15",
+      "time": "18:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "price": 17,
+      "creditUsed": true
+    },
+    {
+      "id": "l_48ce3f14-41da-426f-acc9-35d86a493077",
+      "studentId": "s_f096e977-f8ce-4492-82d6-69262ddebc30",
+      "date": "2026-09-22",
+      "time": "18:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "price": 17,
+      "creditUsed": true
+    },
+    {
+      "id": "l_5510c2cb-fd53-4e0b-8dda-ad04bf4ee6a7",
+      "studentId": "s_f096e977-f8ce-4492-82d6-69262ddebc30",
+      "date": "2026-09-29",
+      "time": "18:00",
+      "status": "Completata",
+      "payment": "Pagata",
+      "price": 17,
+      "creditUsed": true
+    },
+    {
+      "id": "l_2df046d5-7640-4315-99fb-3b904343d3e1",
+      "studentId": "s_f096e977-f8ce-4492-82d6-69262ddebc30",
+      "date": "2026-10-06",
+      "time": "18:00",
+      "status": "Programmata",
+      "payment": "Pagata",
+      "price": 17
+    }
+  ]
+}
