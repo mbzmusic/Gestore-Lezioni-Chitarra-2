@@ -131,6 +131,20 @@ function saveData() {
     updateDashboardStats();
 }
 
+// Classi del badge in base allo stato della lezione (calendario e dashboard)
+function statusClasses(status) {
+    if (status === 'Completata') return 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30';
+    if (status === 'Annullata') return 'bg-slate-600/30 text-slate-400 border-slate-600/30';
+    if (status === 'Da recuperare') return 'bg-rose-500/10 text-rose-300 border-rose-500/30';
+    return 'bg-blue-500/10 text-blue-300 border-blue-500/30';
+}
+
+// Icona dello stato: leggibile anche senza distinguere i colori
+function statusIcon(status) {
+    const ic = { 'Completata': 'fa-check', 'Annullata': 'fa-xmark', 'Da recuperare': 'fa-arrows-rotate', 'Programmata': 'fa-clock' }[status];
+    return ic ? `<i class="fa-solid ${ic} mr-1"></i>` : '';
+}
+
 function updateDashboardStats() {
     renderDashboard();
 }
@@ -253,18 +267,22 @@ function renderDashboard() {
     const recovery = lessons.filter(l => l.status === 'Da recuperare').length;
     document.getElementById('stat-recovery-lessons').innerText = recovery;
 
+    // Solo le lezioni del giorno corrente, in ordine di orario
+    const dateLabel = document.getElementById('dashboard-today-date');
+    if (dateLabel) {
+        dateLabel.innerText = new Date().toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+    }
     const upcomingContainer = document.getElementById('dashboard-upcoming-list');
-    const upcoming = lessons
-        .filter(l => l.date >= todayStr && l.status === 'Programmata')
-        .sort((a, b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time))
-        .slice(0, 5);
+    const todays = lessons
+        .filter(l => l.date === todayStr)
+        .sort((a, b) => a.time.localeCompare(b.time));
 
-    if (upcoming.length === 0) {
-        upcomingContainer.innerHTML = `<p class="text-slate-400 text-sm py-4 text-center">Nessuna lezione imminente programmata.</p>`;
+    if (todays.length === 0) {
+        upcomingContainer.innerHTML = `<p class="text-slate-400 text-sm py-4 text-center">Nessuna lezione in programma per oggi.</p>`;
         return;
     }
 
-    upcomingContainer.innerHTML = upcoming.map(l => {
+    upcomingContainer.innerHTML = todays.map(l => {
         const st = getStudent(l.studentId) || { name: 'Sconosciuto' };
         return `
             <div class="bg-slate-700/30 border border-slate-700/60 p-4 rounded-xl flex items-center justify-between gap-4">
@@ -272,11 +290,11 @@ function renderDashboard() {
                     <div class="bg-amber-500/10 text-amber-400 p-2.5 rounded-xl"><i class="fa-solid fa-guitar"></i></div>
                     <div>
                         <h4 class="font-bold text-white text-sm">${escapeHtml(st.name)}</h4>
-                        <p class="text-xs text-slate-400">${formatDateItalian(l.date)} ore ${escapeHtml(l.time)}</p>
+                        <p class="text-xs text-slate-400">Oggi ore ${escapeHtml(l.time)}</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-2">
-                    <span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-blue-500/20 text-blue-300 border border-blue-500/30">${escapeHtml(l.status)}</span>
+                    <span class="px-2.5 py-1 rounded-full text-xs font-semibold border ${statusClasses(l.status)}">${statusIcon(l.status)}${escapeHtml(l.status)}</span>
                     <button onclick="sendWhatsApp('${escapeHtml(l.id)}')" class="bg-emerald-600/20 hover:bg-emerald-600 text-emerald-400 hover:text-white p-2 rounded-lg transition text-xs" title="Promemoria WhatsApp"><i class="fa-brands fa-whatsapp text-base"></i></button>
                 </div>
             </div>
@@ -478,6 +496,7 @@ function renderCalendarView() {
     const studentFilter = document.getElementById('cal-filter-student').value;
     const monthFilter = document.getElementById('cal-filter-month').value;
     const tbody = document.getElementById('calendar-table-body');
+    const todayStr = todayISO();
 
     let filtered = lessons.filter(l => {
         if (studentFilter && l.studentId !== studentFilter) return false;
@@ -496,13 +515,10 @@ function renderCalendarView() {
         const st = getStudent(l.studentId) || { name: 'Alunno Eliminato' };
         const id = escapeHtml(l.id);
 
-        let statusBg = 'bg-blue-500/10 text-blue-300 border-blue-500/30';
-        if (l.status === 'Completata') statusBg = 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30';
-        if (l.status === 'Annullata') statusBg = 'bg-slate-600/30 text-slate-400 border-slate-600/30';
-        if (l.status === 'Da recuperare') statusBg = 'bg-rose-500/10 text-rose-300 border-rose-500/30';
+        const statusBg = statusClasses(l.status);
 
         return `
-            <tr class="hover:bg-slate-700/20 transition">
+            <tr class="hover:bg-slate-700/20 transition ${l.date === todayStr ? 'row-today' : ''}">
                 <td class="p-4 font-medium text-white">
                     <div>${formatDateItalian(l.date)}</div>
                     <div class="text-xs text-slate-400 font-normal"><i class="fa-regular fa-clock mr-1"></i>${escapeHtml(l.time)}</div>
@@ -510,16 +526,16 @@ function renderCalendarView() {
                 <td class="p-4 font-semibold text-white">${escapeHtml(st.name)}<div class="text-xs text-slate-400 font-normal mt-0.5">${formatEuro(lessonPrice(l))} &middot; ${lessonMinutes(l)} min</div></td>
                 <td class="p-4">
                     <select onchange="updateLessonStatus('${id}', this.value)" class="px-3 py-1 rounded-lg text-xs font-semibold border ${statusBg} outline-none cursor-pointer">
-                        <option value="Programmata" ${l.status === 'Programmata' ? 'selected' : ''}>Programmata</option>
-                        <option value="Completata" ${l.status === 'Completata' ? 'selected' : ''}>Completata</option>
-                        <option value="Annullata" ${l.status === 'Annullata' ? 'selected' : ''}>Annullata</option>
-                        <option value="Da recuperare" ${l.status === 'Da recuperare' ? 'selected' : ''}>Da recuperare</option>
+                        <option value="Programmata" ${l.status === 'Programmata' ? 'selected' : ''}>○ Programmata</option>
+                        <option value="Completata" ${l.status === 'Completata' ? 'selected' : ''}>✓ Completata</option>
+                        <option value="Annullata" ${l.status === 'Annullata' ? 'selected' : ''}>✕ Annullata</option>
+                        <option value="Da recuperare" ${l.status === 'Da recuperare' ? 'selected' : ''}>↻ Da recuperare</option>
                     </select>
                 </td>
                 <td class="p-4">
                     <select onchange="updateLessonPayment('${id}', this.value)" class="px-3 py-1 rounded-lg text-xs font-semibold ${l.payment === 'Pagata' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' : 'bg-amber-500/20 text-amber-300 border border-amber-500/30'} outline-none cursor-pointer">
-                        <option value="Da Saldare" ${l.payment === 'Da Saldare' ? 'selected' : ''}>Da Saldare</option>
-                        <option value="Pagata" ${l.payment === 'Pagata' ? 'selected' : ''}>Pagata</option>
+                        <option value="Da Saldare" ${l.payment === 'Da Saldare' ? 'selected' : ''}>○ Da Saldare</option>
+                        <option value="Pagata" ${l.payment === 'Pagata' ? 'selected' : ''}>✓ Pagata</option>
                     </select>
                 </td>
                 <td class="p-4 text-center">
@@ -697,7 +713,7 @@ function renderMonthlySummary() {
 
     const tbody = document.getElementById('summary-table-body');
     if (students.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="6" class="p-6 text-center text-slate-400">Nessun alunno registrato.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="5" class="p-6 text-center text-slate-400">Nessun alunno registrato.</td></tr>`;
         return;
     }
 
@@ -710,12 +726,11 @@ function renderMonthlySummary() {
             <tr class="hover:bg-slate-700/20">
                 <td class="p-4 font-bold text-white">${escapeHtml(s.name)}</td>
                 <td class="p-4 text-slate-300">${escapeHtml(s.level)}</td>
-                <td class="p-4 text-center">${sLessons.length}</td>
                 <td class="p-4 text-center">${completed}</td>
                 <td class="p-4 text-center font-semibold text-amber-400">${Number(s.credit) || 0} ore</td>
                 <td class="p-4">
                     <span class="px-2.5 py-1 rounded-full text-xs font-semibold ${sLessons.length === 0 ? 'bg-slate-600/30 text-slate-400' : (paidAll ? 'bg-emerald-500/20 text-emerald-300' : 'bg-amber-500/20 text-amber-300')}">
-                        ${sLessons.length === 0 ? 'Nessuna lezione' : (paidAll ? 'Saldato' : 'In sospeso')}
+                        ${sLessons.length === 0 ? 'Nessuna lezione' : (paidAll ? '<i class="fa-solid fa-check mr-1"></i>Saldato' : '<i class="fa-solid fa-clock mr-1"></i>In sospeso')}
                     </span>
                 </td>
             </tr>

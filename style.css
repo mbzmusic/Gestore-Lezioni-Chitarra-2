@@ -1,4 +1,148 @@
+/* =====================================================================
+   GuitarStudio - tema Nero / Antracite / Giallo
+   Le utility di colore di Tailwind (slate, amber, blue, emerald, rose)
+   vengono rimappate qui sulla nuova palette: per cambiare i colori
+   basta modificare le variabili in :root.
+   ===================================================================== */
+:root {
+    --black: #000000;
+    --bg: #0a0a0a;          /* sfondo pagina */
+    --surface: #121212;     /* card e modali */
+    --surface-2: #1c1c1c;   /* input, pulsanti secondari */
+    --surface-3: #262626;   /* hover */
+    --line: #2a2a2a;        /* bordi */
+    --line-2: #3a3a3a;
+    --text: #f5f5f5;
+    --text-2: #e0e0e0;
+    --text-3: #c4c4c4;
+    --muted: #9a9a9a;
+    --gold: #FFD700;        /* giallo principale */
+    --gold-hover: #FFE14D;
+    --gold-fill: #F5C518;   /* giallo piu' caldo per le superfici piene */
+    --gold-fill-hover: #FFD23F;
+    --elevated: #1a1a1a;    /* terzo livello: modali ed elementi in rilievo */
+    --danger: #b03a2e;      /* unica eccezione: pulsanti elimina */
+    --gold-soft: #FFE680;
+    --gold-a10: rgba(255, 215, 0, .10);
+    --gold-a20: rgba(255, 215, 0, .20);
+    --gold-a35: rgba(255, 215, 0, .35);
+    color-scheme: dark;
+}
+
 body { font-family: 'Inter', sans-serif; }
+
+/* ---------- Scrollbar (a destra, a tutta pagina) ---------- */
+* { scrollbar-width: thin; scrollbar-color: var(--gold) var(--bg); }
+*::-webkit-scrollbar { width: 12px; height: 12px; }
+*::-webkit-scrollbar-track { background: var(--bg); }
+*::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 8px; border: 3px solid var(--bg); }
+*::-webkit-scrollbar-thumb:hover { background: var(--gold-hover); }
+
+/* ---------- Sfondi ---------- */
+.bg-slate-900 { background-color: var(--bg); }
+.bg-slate-800 { background-color: var(--surface); }
+header.bg-slate-800 { background-color: var(--black); border-bottom-color: var(--gold-a35); }
+.bg-slate-700 { background-color: var(--surface-2); }
+.bg-slate-700\/30 { background-color: rgba(255, 255, 255, .03); }
+.bg-slate-700\/50 { background-color: rgba(255, 255, 255, .06); }
+.bg-slate-600\/30 { background-color: rgba(255, 255, 255, .08); }
+.bg-slate-950\/80 { background-color: rgba(0, 0, 0, .88); }
+.hover\:bg-slate-600:hover { background-color: var(--surface-3); }
+.hover\:bg-slate-700\/20:hover { background-color: rgba(255, 215, 0, .05); }
+
+/* ---------- Bordi ---------- */
+.border-slate-700, .border-slate-700\/60 { border-color: var(--line); }
+.border-slate-600 { border-color: var(--line-2); }
+.border-slate-600\/30 { border-color: rgba(255, 255, 255, .12); }
+.divide-slate-700\/50 > :not([hidden]) ~ :not([hidden]) { border-color: var(--line); }
+
+/* ---------- Testi ---------- */
+.text-white { color: #fff; }
+.text-slate-100 { color: var(--text); }
+.text-slate-200 { color: var(--text-2); }
+.text-slate-300 { color: var(--text-3); }
+.text-slate-400 { color: var(--muted); }
+.text-slate-600 { color: #6b6b6b; }
+.text-slate-900 { color: #000; }
+.hover\:text-slate-200:hover { color: var(--text-2); }
+.placeholder-slate-500::placeholder { color: #6b6b6b; }
+select option { background: var(--surface); color: var(--text); }
+
+/* ---------- Giallo ---------- */
+.bg-amber-500 { background-color: var(--gold-fill); }
+.hover\:bg-amber-400:hover { background-color: var(--gold-fill-hover); }
+.bg-amber-500\/10 { background-color: var(--gold-a10); }
+.bg-amber-500\/20 { background-color: var(--gold-a10); }
+.border-amber-500\/20 { border-color: var(--gold-a20); }
+.border-amber-500\/30 { border-color: var(--gold-a35); }
+.text-amber-400 { color: var(--gold); }
+.text-amber-300 { color: var(--gold); }
+.focus\:border-amber-400:focus { border-color: var(--gold); }
+.selection\:bg-amber-500::selection { background-color: var(--gold); }
+.selection\:text-slate-900::selection { color: #000; }
+
+/* ---------- "Positivo" (ex verde): completata / pagata / saldato = giallo pieno ---------- */
+.text-emerald-400 { color: var(--gold); }
+.bg-emerald-500\/10, .bg-emerald-500\/20 { background-color: var(--gold-a10); }
+.bg-emerald-500\/10.text-emerald-300,
+.bg-emerald-500\/20.text-emerald-300 { background-color: var(--gold-fill); color: #000; }
+.border-emerald-500\/30 { border-color: var(--gold); }
+.bg-emerald-600\/20 { background-color: var(--gold-a10); }
+.hover\:bg-emerald-600:hover { background-color: var(--gold-fill); color: #000; }
+.bg-emerald-600 { background-color: var(--gold-fill); }
+.hover\:bg-emerald-500:hover { background-color: var(--gold-fill-hover); }
+.bg-emerald-600.text-white, .bg-emerald-600 .text-white { color: #000; }
+.bg-emerald-600 .hover\:text-slate-200:hover { color: rgba(0, 0, 0, .6); }
+
+/* ---------- "Neutro" (ex blu): programmata ---------- */
+.bg-blue-500\/10, .bg-blue-500\/20 { background-color: rgba(255, 255, 255, .06); }
+.border-blue-500\/30 { border-color: rgba(255, 255, 255, .25); }
+.text-blue-300 { color: var(--text-2); }
+.text-blue-400 { color: var(--gold); }
+
+/* ---------- "Attenzione" (ex rosso): da recuperare / elimina ---------- */
+.bg-rose-500\/10 { background-color: rgba(255, 255, 255, .06); }
+.border-rose-500\/30 { border-color: var(--gold-a35); border-style: dashed; }
+.text-rose-300, .hover\:text-rose-300:hover { color: var(--gold-soft); }
+.text-rose-400 { color: var(--text-3); }
+.hover\:bg-rose-500:hover { background-color: var(--gold-fill); color: #000; }
+
+/* Icone delle card statistiche: sempre in giallo */
+.p-2\.5.rounded-xl { background-color: var(--gold-a10); color: var(--gold); }
+
+/* =====================================================================
+   Rifinitura
+   ===================================================================== */
+
+/* 1. Meno giallo: icone secondarie neutre, giallo solo all'hover */
+i.fa-phone, i.fa-clock.w-4, i.fa-ticket { color: var(--muted); }
+button.bg-slate-700 i[class*="text-"] { color: var(--text-3); transition: color .15s; }
+button.bg-slate-700:hover i[class*="text-"] { color: var(--gold); }
+h3.text-emerald-400 { color: var(--text); }
+
+/* 4. Piu' profondita': modali rialzate, input incassati, card che reagiscono */
+.fixed > .bg-slate-800 { background-color: var(--elevated); border-color: var(--gold-a20); box-shadow: 0 24px 60px rgba(0, 0, 0, .85); }
+.fixed input.bg-slate-700, .fixed select.bg-slate-700 { background-color: var(--bg); }
+.bg-slate-800.rounded-2xl { transition: border-color .2s, box-shadow .2s; }
+#students-grid > div:hover, .grid > .p-5.bg-slate-800:hover { border-color: var(--gold-a35); box-shadow: 0 8px 24px rgba(0, 0, 0, .65); }
+
+/* 5. Evidenzia "oggi" */
+#dashboard-upcoming-list { border-left: 3px solid var(--gold); padding-left: 1rem; }
+tr.row-today { background-color: rgba(255, 215, 0, .05); box-shadow: inset 3px 0 0 var(--gold); }
+
+/* 6. Anello di focus giallo (tastiera) */
+button:focus-visible, a:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible {
+    outline: 2px solid var(--gold); outline-offset: 2px;
+}
+#student-search:focus-visible { outline: none; }
+.bg-slate-800:has(> #student-search):focus-within { border-color: var(--gold); }
+
+/* 7. Eccezione: solo i pulsanti "elimina" in rosso spento */
+button.text-rose-400 { color: #d9645a; }
+button.hover\:text-rose-300:hover { color: #ee8a80; }
+button.bg-rose-500\/10 { background-color: rgba(176, 58, 46, .15); color: #d9645a; }
+button.hover\:bg-rose-500:hover { background-color: var(--danger); color: #fff; }
+
 @media print {
     .no-print { display: none !important; }
     .print-only { display: block !important; }
